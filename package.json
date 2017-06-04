@@ -1,0 +1,33 @@
+{
+  "name": "color-conversion",
+  "version": "0.1.1",
+  "description": "Color conversion for HEX to RGBA, HSL to RGBA, RGB to RGBA.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel -d lib/ src/ --copy-files"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justQing00/color-conversion.git"
+  },
+  "keywords": [
+    "color",
+    "conversion",
+    "hex",
+    "hsl",
+    "rgb"
+  ],
+  "author": "tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justQing00/color-conversion/issues"
+  },
+  "homepage": "https://github.com/justQing00/color-conversion#readme"
+}
