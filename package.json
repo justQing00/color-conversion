@@ -1,5 +1,5 @@
 {
-  "name": "color-conversion",
+  "name": "color-conversion-rgb",
   "version": "0.1.1",
   "description": "Color conversion for HEX to RGBA, HSL to RGBA, RGB to RGBA.",
   "main": "lib/index.js",
